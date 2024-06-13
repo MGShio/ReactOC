@@ -1,13 +1,19 @@
-import React from 'react'
-import Navbar from "./components/Navbar.jsx";
-import "./App.css";
+import AppRouter from "./Approuter";
+import React from "react"; 
+import Header from "./components/header/header.jsx";
+import Footer from './components/footer/footer.jsx';
+
+import "./App.css"
+
 
 function App() {
   return (
-    <div>
-      <Navbar />
-    </div>
-  )
+    <>
+      <Header />
+      <AppRouter />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
