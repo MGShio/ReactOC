@@ -14,7 +14,10 @@ import  React  from 'react';
 function Logement() {
   const { id } = useParams();
   const logement = data.find((item) => item.id === id);
-  if (!logement) return <Error />;
+  if (!logement) {
+    console.log(`Logement with id ${id} not found.`);
+    return <Error />;
+  }
 
   const { title, description, pictures, equipments, tags, location, host, rating } = logement;
 

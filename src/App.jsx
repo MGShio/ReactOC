@@ -1,5 +1,4 @@
 import AppRouter from "./Approuter";
-import React from "react"; 
 import Header from "./components/header/header.jsx";
 import Footer from './components/footer/footer.jsx';
 

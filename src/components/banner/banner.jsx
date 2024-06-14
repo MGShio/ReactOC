@@ -1,19 +1,22 @@
 import React from "react";
-import "./banner.css"
+import "./banner.css";
 
-function Banner({page,txt}) {
-    const words = txt.split(",");
-    const firstPart = words[0];
-    const lastPart = words[words.length - 1];
+function Banner({ page, txt }) {
+  // Splitting the txt prop into words
+  const words = txt.split(",");
+  const firstPart = words[0];
+  const lastPart = words[words.length - 1];
 
-    return(
-        <section className={"banner banner--mobile banner--" + page}> 
-            <div>
-                <span className="banner__txt">{firstPart + ","}</span>
-                <span className="banner__txt">{lastPart}</span>
-            </div>
-        </section>
-    );
+  return (
+    <section className={"banner banner--mobile banner--" + page}>
+      <div>
+        {/* Displaying the first part followed by a comma if txt is not empty */}
+        {txt && <span className="banner__txt">{firstPart + ","}</span>}
+        {/* Displaying the last part */}
+        <span className="banner__txt">{lastPart}</span>
+      </div>
+    </section>
+  );
 }
 
 export default Banner;
