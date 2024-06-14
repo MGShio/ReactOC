@@ -61,4 +61,7 @@
       {
         border-radius: 10px;
       }
+      .carousel__counter {
+        opacity: 0%;
+      }
   }
