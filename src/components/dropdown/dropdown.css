@@ -77,6 +77,7 @@
   =============================================*/
   .dropdown__button--about {
     font-size: 24px;
+    border-radius: 5px;
   }
   .dropdown__button__arrow--about {
     width: 24px;

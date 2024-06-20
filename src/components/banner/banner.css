@@ -51,6 +51,9 @@
     .banner--home {
         min-height: 111px;
     }
+    .banner--about {
+        min-height: 111px;
+    }
     .banner
     {
         align-items: flex-start;

@@ -1,6 +1,6 @@
 .card {
     display: flex;
-    flex: 1 0 calc(33.33% - 50px);
+    flex: 1 0 calc(33% - 30px);
     min-height:340px ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     align-items: end;
@@ -8,6 +8,8 @@
     text-decoration:none; 
     position: relative; 
     transition: all 0.2s;
+    justify-content: center;
+    max-width: calc(33% - 30px);
   }
   .card:hover {
     transform: scale(1.01);
@@ -45,4 +47,11 @@
   
   .card:hover .card__image {
     filter: brightness(90%);
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 0 100%; /* Make items take full width on small screens */
+      max-width: none;
+    }
   }

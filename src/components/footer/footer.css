@@ -20,6 +20,10 @@
     line-height: 142.6%;
 }
 @media all and (min-width: 0px) and (max-width: 768px){
+    .footer {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
     .footer__copyright
     {
         font-weight: 500;

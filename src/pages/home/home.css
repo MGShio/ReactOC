@@ -6,6 +6,7 @@
     border-radius: 25px;
     padding: 50px;
     margin-top: 50px;
+    justify-content: center;
   }
   
   .card {
@@ -19,10 +20,9 @@
       gap: 20px;
       padding: 20px;
       margin-top: 20px;
-  
     }
     .card {
-      flex-basis: calc(50% - 50px);
+      flex-basis: calc(100% - 50px);
       min-height:255px ;
     }
      
