@@ -1,4 +1,4 @@
-import "./tagname.css"
+import "./tagname.sass"
 import React from 'react';
 
 

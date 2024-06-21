@@ -2,7 +2,7 @@ import React from "react";
 import Banner from './../../components/banner/banner';
 import Dropdown from './../../components/dropdown/dropdown';
 import AboutData  from "../../data/dataabout.json";
-import "./about.css"
+import "./about.sass"
 
 export default function About() {
   return (

@@ -1,6 +1,6 @@
 import data from "../../data/datalogement.json";
 import Carousel from "../../components/carousel/carousel";
-import "./apartment.css";
+import "./apartment.sass";
 import Error from "../error/error";
 import { useParams } from "react-router-dom";
 import Dropdown from './../../components/dropdown/dropdown';

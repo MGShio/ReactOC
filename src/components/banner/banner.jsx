@@ -1,5 +1,5 @@
 import React from "react";
-import "./banner.css";
+import "./banner.sass";
 
 function Banner({ page, txt }) {
   // Splitting the txt prop into words

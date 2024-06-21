@@ -1,5 +1,5 @@
 import React from "react";
-import "./stars.css";
+import "./stars.sass";
 
 function Stars({ rating }) {
 const stars = [];
